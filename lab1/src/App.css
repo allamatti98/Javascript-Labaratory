@@ -65,3 +65,7 @@
 body{
   background-color: slateblue;
 }
+.Body{
+  padding: 30px 20px;
+  letter-spacing: -0.05em;
+}
