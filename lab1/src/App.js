@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import ReactReasons from './components/ReactReasonsList';
-import Header from './components/header1';
-import Heading1 from './components/heading1';
-import Footer1 from './components/footer1';
-import Nav1 from './components/NavBar1';
+import Header1 from "./components/Header";
+import Body from "./components/Body";
 
-
-function App() {
-  return (
-    <div id = "root">
-      <nav className="NavBar">
-      <Header/>
-      <Nav1/>
-      </nav>
-      <Heading1/>
-      <ReactReasons/>
-      <Footer1/>
-    </div>
-   
-  );
+function App(){
+  return(
+    <div>
+      <Header1/>
+      <Body/>
+      </div>
+  )
 }
-
-export default App;
+export default App

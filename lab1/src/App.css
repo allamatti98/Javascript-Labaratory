@@ -37,6 +37,31 @@
   }
 }
 .nav1{
-  list-style:none;
-  display:flex;
+  list-style: none;
+  display: flex;
+}
+.NavBar1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /*prevent stretching in flex containers*/
+}
+.nav1 > li{
+  padding:10px;
+}
+.image{
+  width: 100px;
+}
+.NavBar{
+  display: flex;
+  background-color: #282c34;
+}
+.LeftBar{
+  display:Flex;
+  margin-right: auto;
+}
+.Logo{
+  width: 100px;
+}
+body{
+  background-color: slateblue;
 }
